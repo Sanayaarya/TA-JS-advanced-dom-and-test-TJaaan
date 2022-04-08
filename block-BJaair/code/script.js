@@ -53,6 +53,8 @@ function createUI(data = cardsData, root = ul){
         fragment.appendChild(li);
     });
     root.append(fragment);
-}
+};
 
 createUI(cardsData, ul);
+
+
