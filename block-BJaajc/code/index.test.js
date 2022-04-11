@@ -2,17 +2,17 @@ const index = require('./index');
 
 // For full Name check
 test('if full Name is correct', () => {
-  expect(index.fullName('zehan','khan')).toBe('zehan khan');
+  expect(index.fullName('Sanaya','Arya')).toBe('Sanaya Arya');
 });
 
 test('if full Name is correct', () => {
-  expect(index.fullName('Anand', '')).toBe('Anand ');
+  expect(index.fullName('Ravina', 'Rajput')).toBe('Ravina Rajput ');
 });
 test('if full Name is correct', () => {
   expect(index.fullName('', '')).toBe(' ');
 });
 test('if full Name is correct', () => {
-  expect(index.fullName('vasant', 'saras')).toBe('vasant saras');
+  expect(index.fullName('Gauri', 'Marathe')).toBe('Gauri Marathe');
 });
 
 // Circumference
